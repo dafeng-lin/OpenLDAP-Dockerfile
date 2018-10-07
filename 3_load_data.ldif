@@ -1,0 +1,25 @@
+# 根节点
+dn: dc=lindafeng,dc=com
+o: lindafeng com
+dc: lindafeng
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+
+# role
+dn: cn=admin,dc=lindafeng,dc=com
+cn: admin
+objectClass: organizationalRole
+description: Directory Manager
+
+# ou
+dn: ou=groups,dc=lindafeng,dc=com
+ou: groups
+objectClass: top
+objectClass: organizationalUnit
+
+# ou
+dn: ou=users,dc=lindafeng,dc=com
+ou: users
+objectClass: top
+objectClass: organizationalUnit
